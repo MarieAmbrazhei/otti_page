@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico" />
+  <title>The Story of Ottis</title>
+  <style>
+    body {
+      font-family:  "Comic Sans MS", cursive, sans-serif;
+      background-color: #3a3a3a; /* Светло-серый фон */
+      color: #f0f0f0; /* Белый текст */
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+    }
+
+    header {
+      background-color:#999999;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+     h1 {
+      font-size: 50px; /* Изменили размер заголовка */
+    }
+    h2 {
+      font-size: 40px; /* Изменили размер подзаголовков */
+    }
+    h2, h3 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .section:nth-child(odd) {
+      background: 	#cccccd;
+      color: #ffffff;
+    }
+
+    .section:nth-child(even) {
+      background:  	#dddddd;
+      color: #ffffff;
+      align-items: flex-start; 
+    }
+
+    .text {
+      max-width: 60%;
+      padding: 20px;
+      font-size: 20px;
+    }
+   
+    .photos {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 40%;
+    }
+
+    .photos img {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    .photos img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    }
+
+     p {
+        font-size: 25px; 
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: #ffffff; 
+    }
+    
+    ul {
+      color: #ffffff; 
+      list-style-type: square; 
+      font-size: 18px;
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #999999;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px;
+    }
+    .section img:last-of-type {
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    display: block; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    }
+   .section img:last-of-type:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    }
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        padding: 20px 10px;
+      }
+
+      .text,
+      .photos {
+        max-width: 100%;
+      }
+
+      .photos {
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .photos img {
+        max-width: 150px;
+      }
+   
+  
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Meet Ottis, the Cutest Cat Ever!</h1>
+  </header>
+
+ 
+  <div class="section">
+    <div class="text">
+      <h2>From Street to Home</h2>
+      <p>
+        Ottis was once a stray cat wandering the streets, searching for food and shelter.
+        He looked shy and tired, but his kind eyes told a story. Now, he’s a beloved member of the family!
+      </p>
+      <img src="kit.jpg" alt="Paw print" style="display: block; margin: 200px auto 0; max-width: 80px;">
+
+   </div>
+    <div class="photos">
+      <img src="3.jpg" alt="Ottis on the street">
+      <img src="4.jpg" alt="Ottis looking sad">
+    </div>
+  </div>
+
+ 
+<div class="section">
+  <div class="photos">
+    <img src="7.jpg" alt="Ottis relaxing at home">
+    <p style="color: #000000; font-size: 14px; margin-top: 5px; text-align: center;">
+   Hey, bro! Are you working?
+</p>
+    <img src="2.jpg" alt="New Ottis picture" style="max-width: 300px; border-radius: 12px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); margin-top: 20px;">
+<p style="color: #000000; font-size: 14px; margin-top: 5px; text-align: center;">
+  I'm not :)
+</p>
+  </div>
+  <div class="text">
+    <h2>His New Life</h2>
+    <p>
+      Today, Ottis is living his best life. His favorite hobbies? He loves being a little dramatic and acting like the king of the house.  When he’s not busy with that, he enjoys his favorite things:
+
+    </p>
+    <h3>Ottis is:</h3>
+    <ul>
+      <li>Fish Lover </li>
+      <li>Professional Sleeper</li>
+      <li>Playful Ninja</li>
+    </ul> 
+  </div>
+  
+  <img src="6.jpg" alt="New Ottis picture" style="max-width: 300px; border-radius: 12px; box-shadow: 0 6px 15px rgba(0,0,0,0.2); margin-top: 20px;">
+</div>
+
+  </div>
+  
+ <footer>
+  <p style="font-size: 14px; font-family: Arial, sans-serif; color: #666;">
+    Want to learn more about cats? 
+    <a href="https://ru.wikipedia.org/wiki/Кошка" target="_blank" rel="noopener noreferrer" 
+       style="color:#4A90E2; text-decoration:none;">
+      Follow
+    </a>
+  </p>
+  <p>Created with love by Ottis's favorite human.</p>
+</footer>
+</body>
+</html>
+
+
+
